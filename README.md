@@ -1,6 +1,6 @@
 # Python Code Gen Problem
 
-## Objectives
+## Objectives
 
 1. Define services and DTOs in Protobuf
 1. Generate code with Buf, maintaining easy separation of generated vs application code
