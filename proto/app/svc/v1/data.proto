@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package app.svc.v1;
+
+message File {
+  string name = 1;
+  uint64 size = 2;
+  string mime_type = 3;
+  string extension = 4;
+}

@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package app.svc.v1;
+
+import "app/svc/v1/data.proto";
+
+service DownloadService {
+  rpc Download(DownloadRequest) returns (DownloadResponse);
+}
+
+message DownloadRequest {
+  string url = 1;
+}
+
+message DownloadResponse {
+  File file = 1;
+}
