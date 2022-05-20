@@ -18,9 +18,9 @@ Should fail like so:
 
 ```
 Traceback (most recent call last):
-  File "/Users/user/go/src/github.com/jbendotnet/python-codegen-buf-problem/main.py", line 2, in <module>
+  File "/Users/user/go/src/github.com/jbendotnet/python-codegen-problem/main.py", line 2, in <module>
     from gen.proto.python.app.svc.v1 import api_pb2 as app_svc_v1_api
-  File "/Users/user/go/src/github.com/jbendotnet/python-codegen-buf-problem/gen/proto/python/app/svc/v1/api_pb2.py", line 14, in <module>
+  File "/Users/user/go/src/github.com/jbendotnet/python-codegen-problem/gen/proto/python/app/svc/v1/api_pb2.py", line 14, in <module>
     from app.svc.v1 import data_pb2 as app_dot_svc_dot_v1_dot_data__pb2
 ModuleNotFoundError: No module named 'app'
 make: *** [run] Error 1
