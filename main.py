@@ -1,4 +1,4 @@
-# ideally these imports would be 
+# ideally these imports would be like so, as this is how the code is generated
 # from app.svc.v1 import api_pb2 as app_svc_v1_api
 # from app.svc.v1 import data_pb2 as data_svc_v1_api
 from gen.proto.python.app.svc.v1 import api_pb2 as app_svc_v1_api
